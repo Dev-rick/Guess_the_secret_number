@@ -21,7 +21,7 @@ while True: #used for creating a loop(where you come back by 'continue' to this 
             play = str(raw_input("press ENTER to play or type 'x' to Exit:\n>> "))
             if play == 'x':
                 print "Bye, Bye!"
-                exit()
+                break
             continue #start again by while True:
     except ValueError: #if there is a ValueError, which means when User entered a str and not an int.
         print "Oops that is not a number! Try again!"
